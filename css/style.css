@@ -2,12 +2,14 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f1f6f9;
     text-align: center;
+    margin: 0;
 }
 
 h1 {
-    background-color: #194c66;
-    color: hsl(200, 60%, 25%);
+    background-color: #32004a;
+    color: hsl(0, 0%, 100%);
     padding: 20px;
+    margin-top: 0;
 }
 
 .boton {
@@ -15,17 +17,29 @@ h1 {
     color: white;
     padding: 10px 20px;
     text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
 }
 
 .tarjeta {
     background-color: white;
     width: 200px;
     margin: 10px auto;
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
     list-style: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .pie {
     color: gray;
+
+    margin-top: 30px;
 }
